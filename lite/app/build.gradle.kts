@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace = "com.rossi.myclocklite"
+    namespace = "com.rossi.myclock"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.rossi.myclocklite"
+        applicationId = "com.rossi.myclock"
         minSdk = 24
         targetSdk = 34
-        versionCode = 2
-        versionName = "1.2"
+        versionCode = 4
+        versionName = "1.3"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

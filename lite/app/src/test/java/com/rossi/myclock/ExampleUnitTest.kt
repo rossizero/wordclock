@@ -1,4 +1,4 @@
-package com.rossi.myclocklite
+package com.rossi.myclock
 
 import org.junit.Test
 

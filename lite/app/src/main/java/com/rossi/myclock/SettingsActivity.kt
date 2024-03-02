@@ -1,4 +1,4 @@
-package com.rossi.myclocklite
+package com.rossi.myclock
 
 import android.app.Dialog
 import android.app.WallpaperManager

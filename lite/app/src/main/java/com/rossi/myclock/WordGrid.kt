@@ -1,4 +1,4 @@
-package com.rossi.myclocklite
+package com.rossi.myclock
 
 class WordGrid {
     private var grid: Array<Array<TextPart>> = createGrid()
