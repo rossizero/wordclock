@@ -1,0 +1,16 @@
+<resources>
+    <string-array name="colors">
+        <item>Black `n white </item>
+        <item>White `n black </item>
+    </string-array>
+    <string-array name="color_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="fonts">
+        <item>Secret Code *</item>
+    </string-array>
+    <string-array name="font_values">
+        <item>1</item>
+    </string-array>
+</resources>

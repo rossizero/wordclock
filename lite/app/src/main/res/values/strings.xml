@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WordClockLite</string>
+    <string name="title_activity_settings">WordClockLite</string>
+    <string name="wallpaper_description">A Live Wallpaper that tells the time.</string>
+</resources>
