@@ -1,0 +1,74 @@
+<resources>
+    <string-array name="colors">
+        <item>Black `n white </item>
+        <item>White `n black </item>
+        <item>Just dark blue</item>
+        <item>Just dark purple</item>
+        <item>Just dark green</item>
+        <item>Just light purple</item>
+        <item>Just light green</item>
+        <item>Just light orange</item>
+        <item>Just light blue</item>
+        <item>Bright orange with gray</item>
+        <item>Bright purple with gray</item>
+        <item>Bright blue with gray</item>
+        <item>Bright green with gray</item>
+        <item>Steel</item>
+        <item>Random (Good luck!)</item>
+    </string-array>
+    <string-array name="color_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+    <string-array name="fonts">
+        <item>Anonymous Pro *</item>
+        <item>Carbon</item>
+        <item>Cella</item>
+        <item>Crystal</item>
+        <item>Gabriele</item>
+        <item>Hack</item>
+        <item>Lekton</item>
+        <item>Luxi</item>
+        <item>Monospace</item>
+        <item>Normafixed</item>
+        <item>Oloron</item>
+        <item>Oslo</item>
+        <item>Secret Code *</item>
+        <item>SmallTypeWriting</item>
+        <item>SourceCodePro</item>
+        <item>Speculo</item>
+        <item>Speculum</item>
+    </string-array>
+    <string-array name="font_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+    </string-array>
+</resources>

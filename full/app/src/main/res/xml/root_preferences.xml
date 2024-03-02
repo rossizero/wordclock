@@ -1,0 +1,104 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:title="Preview"
+        app:key="PREVIEW"
+        app:summary="Click to preview and set the wallpaper"
+        />
+
+    <PreferenceCategory app:title="Text Style">
+        <ListPreference
+            app:key="FONT_LIST"
+            app:title="Choose font"
+            app:defaultValue="1"
+            app:entries="@array/fonts"
+            app:entryValues="@array/font_values"
+            app:useSimpleSummaryProvider="true"
+            />
+        <SeekBarPreference
+            app:key="MARGIN_X"
+            app:title="Horizontal margin"
+            app:summary="space to the left and right"
+            app:defaultValue="100"
+            android:max="400"
+            app:min="0"
+            app:showSeekBarValue="true"
+            />
+        <SeekBarPreference
+            app:key="MARGIN_Y"
+            app:title="Vertical margin"
+            app:summary="move clock up or down"
+            app:defaultValue="100"
+            android:max="400"
+            app:min="-100"
+            app:showSeekBarValue="true"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Colors">
+        <SwitchPreference
+            app:key="USE_PRESETS"
+            app:summary="Choose between using a predefined color scheme or your own. If you choose your own, you can edit the colors below."
+            app:title = "Preset?"
+            app:defaultValue ="false"/>
+
+        <ListPreference
+            app:key="PRESET_LIST"
+            app:title="Choose pack"
+            app:entries="@array/colors"
+            app:useSimpleSummaryProvider="true"
+            app:defaultValue="1"
+            app:enabled="false"
+            app:entryValues="@array/color_values"/>
+
+        <com.rarepebble.colorpicker.ColorPreference
+            app:key="BACKGROUND_COLOR"
+            app:title="Background color"
+            app:summary="This sets the color of the background"
+            app:defaultValue="#ffffff"
+            />
+        <com.rarepebble.colorpicker.ColorPreference
+            app:key="FONT_COLOR_HIGHLIGHTED"
+            app:title="Highlighted text color"
+            app:summary="This sets the color of the highlighted text"
+            app:defaultValue="#000000"
+            />
+        <com.rarepebble.colorpicker.ColorPreference
+            app:key="FONT_COLOR_DEFAULT"
+            app:title="Default text color"
+            app:summary="This sets the color of the rest of the text"
+            app:defaultValue="#676767"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Extras">
+        <SwitchPreference
+            app:key="SHOW_WORLD"
+            app:title = "''World day of ...'' - icons?"
+            app:summary="Some special days recieved their own icons in the top left corner of the live wallpaper"
+            app:defaultValue ="true"/>
+        <SeekBarPreference
+            app:key="ICON_SIZE"
+            app:title="Icon Size"
+            app:defaultValue="200"
+            android:max="250"
+            app:min="50"
+            app:showSeekBarValue="true"
+            />
+        <SwitchPreference
+            app:key="SHOW_EGGS"
+            app:title = "Easter-Eggs?"
+            app:summary="Can you find them all?"
+            app:defaultValue ="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title = "Also Interesting">
+        <Preference
+            app:key = "ABOUT"
+            app:title ="about"/>
+        <Preference
+            app:key = "LINK"
+            app:title ="more apps"/>
+    </PreferenceCategory>
+</PreferenceScreen>
