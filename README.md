@@ -1,5 +1,5 @@
 # wordclock
-A new version of my small Live Wallpaper from 2015 (my very first app ever).
+A new version of my small Live Wallpaper from 2015 (that was my very first app ever).
 
 Builds can be found in the /release folders of the apps or at https://play.google.com/store/apps/developer?id=cough_cough
 
