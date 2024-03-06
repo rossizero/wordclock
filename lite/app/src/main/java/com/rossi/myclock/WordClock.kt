@@ -4,12 +4,12 @@ import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.graphics.Typeface
+import android.util.Log
 import java.util.Calendar
 
 
 class WordClock {
     private var wordGrid: WordGrid = WordGrid()
-    private var calendar: Calendar = Calendar.getInstance()
 
     //style stuff
     private var currentTypeface: Typeface? = null
@@ -62,6 +62,7 @@ class WordClock {
 
     fun draw(canvas: Canvas, context: Context, width: Int, height: Int) {
         //update time
+        val calendar: Calendar = Calendar.getInstance()
         wordGrid.updateTime(calendar.get(Calendar.MINUTE), calendar.get(Calendar.HOUR_OF_DAY))
 
         //background fill
